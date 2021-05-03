@@ -18,7 +18,7 @@ import com.ricoom.app.models.BlogPost;
 import com.ricoom.app.services.BlogService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("https://ricoomarticles.herokuapp.com/")
 @CrossOrigin(origins = "http://localhost:4200")
 public class BlogController {
 	@Autowired
